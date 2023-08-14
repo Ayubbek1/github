@@ -1,0 +1,26 @@
+h1{
+    font-size: 300px ;
+}
+h2{
+    font-size: 300px ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 50px;
+    font-size: 40px;
+}
+.btns{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.btns button:nth-child(2){
+    transform: translateX(30px);
+}
+.none{
+    display: none;
+}
